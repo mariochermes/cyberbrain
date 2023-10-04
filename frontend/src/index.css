@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color1);
+  color: var(--color6);
+  font-family: var(--default-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 93.2%;
+  overflow-y: auto;
+}
+
+h1 {
+  font-size: var(--font-size-large);
+}
+
+h5 {
+  font-size: var(--font-size-medium);
+}
+
+button {
+  border: 0 !important;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.row {
+  margin: 0;
+  width: 100%;
+}
+
+.col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
