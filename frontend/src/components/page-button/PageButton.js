@@ -1,7 +1,7 @@
 import { Button, Image} from 'react-bootstrap';
-import { publicUrl } from '../index';
+import { publicUrl } from '../../index';
 
-import '../styles/page-button.css';
+import './page-button.css';
 
 export default function PageButton({ pageName }) {
     return (

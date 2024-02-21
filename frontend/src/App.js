@@ -1,10 +1,10 @@
 import { BrowserRouter , Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
-import HomePage from './pages/HomePage';
-import TasksPage from './pages/TasksPage';
-import AreasPage from './pages/AreasPage';
-import ResourcesPage from './pages/ResourcesPage';
-import ArchivesPage from './pages/ArchivesPage';
+import HomePage from './pages/home-page/HomePage';
+import TasksPage from './pages/tasks-page/TasksPage';
+import AreasPage from './pages/areas-page/AreasPage';
+import ResourcesPage from './pages/resources-page/ResourcesPage';
+import ArchivesPage from './pages/archives-page/ArchivesPage';
 
 
 export default function App() {
